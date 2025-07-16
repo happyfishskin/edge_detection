@@ -90,6 +90,8 @@ python src/train.py --model resnet34_unet --epochs 20 --batch_size 8 --learning_
 * `--data_path`: 資料集根目錄的路徑。
 
 訓練過程中，腳本會自動評估驗證集上的 Dice Score，並將分數最高的模型權重儲存於 `saved_models/` 資料夾下。訓練結束後，結果圖表會儲存在 `result/` 資料夾。
+有兩個訓練好的模型
+https://drive.google.com/drive/folders/1ilNvBJ-ne8gdM7F_c-1oaq-6VZOBo4jC?usp=drive_link
 
 ### 4. 進行推理與評估
 
